@@ -1,0 +1,9 @@
+[1/229] Performing build step for 'bootloader'
+[1/1] cd /home/admin/micropython/ports/esp32/build/bootloader/esp-idf/esptool_py && /home/admin/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/admin/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/admin/micropython/ports/esp32/build/bootloader/bootloader.bin
+Bootloader binary size 0x63a0 bytes. 0xc60 bytes (11%) free.
+[2/229] No install step for 'bootloader'
+[3/229] Completed 'bootloader'
+[4/229] cd /home/admin/micropython/ports/esp32/build/esp-idf/main_esp32 && /usr/bin/cmake -E make_directory /home/admin/micropython/ports/esp32/build/genhdr && /home/admin/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/admin/micropython/py/makeversionhdr.py /home/admin/micropython/ports/esp32/build/genhdr/mpversion.h
+[5/11] cd /home/admin/micropython/ports/esp32/build/esp-idf/main_esp32 && /home/admin/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/admin/micropython/tools/makemanifest.py -o /home/admin/micropython/ports/esp32/build/frozen_content.c -v BOARD_DIR=/home/admin/micropython/ports/esp32/boards/ESP32_GENERIC -v MPY_DIR=/home/admin/micropython -v MPY_LIB_DIR=/home/admin/micropython/lib/micropython-lib -v PORT_DIR=/home/admin/micropython/ports/esp32 -b /home/admin/micropython/ports/esp32/build -f-march=xtensawin --mpy-tool-flags= /home/admin/micropython/ports/esp32/boards/manifest.py
+[6/6] cd /home/admin/micropython/ports/esp32/build/esp-idf/esptool_py && /home/admin/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/admin/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/admin/micropython/ports/esp32/build/partition_table/partition-table.bin /home/admin/micropython/ports/esp32/build/micropython.bin
+micropython.bin binary size 0x177e00 bytes. Smallest app partition is 0x1f0000 bytes. 0x78200 bytes (24%) free.

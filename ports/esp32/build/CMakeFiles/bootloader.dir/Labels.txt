@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/admin/micropython/ports/esp32/build/CMakeFiles/bootloader
+/home/admin/micropython/ports/esp32/build/CMakeFiles/bootloader.rule
+/home/admin/micropython/ports/esp32/build/CMakeFiles/bootloader-complete.rule
+/home/admin/micropython/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/admin/micropython/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/admin/micropython/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/admin/micropython/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/admin/micropython/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/admin/micropython/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/admin/micropython/ports/esp32/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

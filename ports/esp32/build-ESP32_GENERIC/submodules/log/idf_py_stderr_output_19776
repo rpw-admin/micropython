@@ -1,0 +1,8 @@
+Found User C Module(s): 
+CMake Error at /home/admin/micropython/py/mkrules.cmake:260 (message):
+  Done
+Call Stack (most recent call first):
+  esp32_common.cmake:205 (include)
+  main_esp32/CMakeLists.txt:11 (include)
+
+
